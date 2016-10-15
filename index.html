@@ -978,9 +978,9 @@
                                     <input type="email" placeholder="Your Email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL">
                                 </div>
                                 <div class="mc-field-group input-group">
-                                        <ul>
-                                            <li><input type="radio" value="1" name="group[9837]" id="mce-group[9837]-9837-0"><label for="mce-group[9837]-9837-0">Subscribers</label></li>
-                                            <li><input type="radio" value="2" name="group[9837]" id="mce-group[9837]-9837-1"><label for="mce-group[9837]-9837-1">Members</label></li>
+                                        <ul style="list-style-type: none; color: #ff6b6b;" >
+                                            <li><input type="radio" value="1" name="group[9837]" id="mce-group[9837]-9837-0"><label for="mce-group[9837]-9837-0" class="mc-rbutt"> I want to stay updated.</label></li>
+                                            <li><input type="radio" value="2" name="group[9837]" id="mce-group[9837]-9837-1"><label for="mce-group[9837]-9837-1" class="mc-rbutt"> I want to become a member!</label></li>
                                         </ul>
                                 </div>
                             </div>
@@ -1733,18 +1733,7 @@
 
     <!-- Mailchimp -->
     <script type='text/javascript' src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-    <script type='text/javascript'>
-        (function($) {
-            window.fnames = new Array();
-            window.ftypes = new Array();
-            fnames[0]='EMAIL';
-            ftypes[0]='email';
-            fnames[1]='FNAME';
-            ftypes[1]='text';
-        }(jQuery));
-        var $mcj = jQuery.noConflict(true);
-    </script>
-
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
