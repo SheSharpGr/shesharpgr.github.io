@@ -946,7 +946,8 @@ section#contact #contactform {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/projects/devit-image4.jpg);
+    background-image: url(../img/projects/devit-image.jpg);
+    background-attachment: fixed;
     background-position: center center;
     background-repeat: none;
     background-color: rgb(255,255,255);
@@ -962,9 +963,10 @@ section#contact #contactform {
 }
 
 #devit .devit-text {
+    margin-top: 30px;
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     font-style: italic;
     line-height: 22px;
 }
