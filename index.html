@@ -139,7 +139,24 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>May 2015</h4>
+                    <h4>
+                        <script>
+                            var month = new Array();
+                            month[0] = "January";
+                            month[1] = "February";
+                            month[2] = "March";
+                            month[3] = "April";
+                            month[4] = "May";
+                            month[5] = "June";
+                            month[6] = "July";
+                            month[7] = "August";
+                            month[8] = "September";
+                            month[9] = "October";
+                            month[10] = "November";
+                            month[11] = "December";
+                            document.write(month[new Date().getMonth()] + " " + new Date().getFullYear());
+                        </script>
+                    </h4>
                     <h4 class="subheading">Present</h4>
                   </div>
                   <div class="timeline-body">
@@ -158,7 +175,7 @@
                 </div>
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>2015-</h4>
+                    <h4><script>document.write(new Date().getFullYear())</script>-</h4>
                     <h4 class="subheading">Future</h4>
                   </div>
                   <div class="timeline-body">
@@ -168,20 +185,6 @@
                   </div>
                 </div>
               </li>
-              <!--<li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>-->
               <li class="timeline-inverted">
                 <div class="timeline-image">
                   <a href="#contact" class="page-scroll btn"> <h4>Be Part
