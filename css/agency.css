@@ -938,9 +938,9 @@ section#contact #contactform {
     font-size: 1.2em;
 }
 
-.devit-logo{
-    width: 500px;
-}
+/*.devit-logo{
+    width: 100%;
+}*/
 
 #devit {
     text-align: center;
