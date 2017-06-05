@@ -637,6 +637,7 @@ section h3.section-subheading {
 .team-member img {
     margin: 0 auto;
     border: 7px solid #fff;
+    max-width: 80%;
 }
 
 .team-member h4 {
@@ -941,10 +942,6 @@ section#contact #contactform {
     padding: 5px;
     font-size: 1.2em;
 }
-
-/*.devit-logo{
-    width: 100%;
-}*/
 
 #devit {
     text-align: center;
