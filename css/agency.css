@@ -740,7 +740,12 @@ footer ul.quicklinks {
 }
 
 ul.social-buttons {
+    /*margin-top: 10px;*/
     margin-bottom: 0;
+}
+
+ul.social-buttons li {
+    padding: 0px;
 }
 
 ul.social-buttons li a {
@@ -751,8 +756,7 @@ ul.social-buttons li a {
     font-size: 20px;
     line-height: 40px;
     outline: 0;
-    color: #fff;
-    background-color: #222;
+    color: #222;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -761,7 +765,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #ff6b6b;
+    color: #ff6b6b;
 }
 
 .btn:focus,
@@ -938,9 +942,9 @@ section#contact #contactform {
     font-size: 1.2em;
 }
 
-.devit-logo{
-    width: 500px;
-}
+/*.devit-logo{
+    width: 100%;
+}*/
 
 #devit {
     text-align: center;
